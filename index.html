@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  <!-- JQuery -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+	<div class=container>
+		<div class=row id=gameTitle>
+			<h1>Cat Quiz</h1>
+		</div>
+
+		<div class=row id=timeRemaining>
+		</div>
+
+		<div class=row id=question>
+			<form name="quiz" method="post" name="buttons" id="quiz" onsubmit="return false">
+				<li><div class="question"><h2>What is the technical name for a hairball?</h2></div></li>
+				<input id="answer" type="radio" name="group1" value="wrong">Beenie<br>
+				<input id="answer" type="radio" name="group1" value="wrong">Barf Ball<br>
+				<input id="answer" type="radio" name="group1" value="correct">Bezoar<hr>
+
+				<li><div class="question"><h2>About how many different sounds can a cat make?</h2></div></li>
+				<input id="answer" type="radio" name="group2" value="wrong">1,000<br>
+				<input id="answer" type="radio" name="group2" value="correct">100<br>
+				<input id="answer" type="radio" name="group2" value="wrong">10<hr>
+
+				<li><div class="question"><h2>Who was the first cat in outterspace?</h2></div></li>
+				<input id="answer" type="radio" name="group3" value="wrong">The American cat named Potatoe<br>
+				<input id="answer" type="radio" name="group3" value="wrong">The Russian can named Vilik<br>
+				<input id="answer" type="radio" name="group3" value="correct" >The French cat named Felicette<hr>
+
+				<li><div class="question"><h2>Cats can travel at top speeds of approximately: </h2></div></li>
+				<input id="answer" type="radio" name="group4" value="wrong">16 mph<br>
+				<input id="answer" type="radio" name="group4" value="wrong">25 mph<br>
+				<input id="answer" type="radio" name="group4" value="correct">31 mph<hr>
+
+				<li><div class="question"><h2>What is the largest known litter of kittens?</h2></div></li>
+				<input id="answer" type="radio" name="group5" value="wrong">7<br>
+				<input id="answer" type="radio" name="group5" value="correct">19<br>
+				<input id="answer" type="radio" name="group5" value="wrong">24<hr>
+
+				<button class="submit" type="submit"><h2>Submit</h2></button>
+
+			</form>
+		</div>
+		<div class=row id=image>
+		</div>
+
+		
+
+	</div>
+</body>
+</html>

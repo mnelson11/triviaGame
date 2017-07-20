@@ -1,0 +1,21 @@
+body{
+	
+	background-image: url("images/b0cbc11f5cbb489c1730e421e56eac82--cat-art-print-cat-prints.jpg")
+	
+}
+
+.container{
+	background-color: grey;
+	width:600px;
+	height:600px
+	margin:10px;
+	padding: 10px, 50px, 50px, 50px;
+	text-align: center;
+	border:10px 
+}
+
+h1{
+
+	font-family: 'Courgette', cursive;
+	font-size: 100px;
+}
